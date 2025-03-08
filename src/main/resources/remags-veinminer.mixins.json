@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.remag.remagsveinminer.mixin",
+	"package": "net.remag.RemagsVeinMiner.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"
