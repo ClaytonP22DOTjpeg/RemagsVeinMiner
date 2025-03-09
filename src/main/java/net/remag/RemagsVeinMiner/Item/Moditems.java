@@ -20,7 +20,7 @@ public class Moditems {
         return Registry.register(Registries.ITEM, Identifier.of(RemagsVeinMiner.MOD_ID, name), item);
     }
     public static void registerModItems(){
-        RemagsVeinMiner.LOGGER.info("Registering Mod Items for " + RemagsVeinMiner.MOD_ID);
+        RemagsVeinMiner.LOGGER.info("Registering Mod items for " + RemagsVeinMiner.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries ->{
             entries.add(REMAG_CIPE);
             entries.add(REMAG);
