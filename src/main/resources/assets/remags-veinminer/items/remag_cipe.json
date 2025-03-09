@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "remagsveinminer:item/remag_cipe"
+    "model": "remags-veinminer:item/remag_cipe"
   }
 }
