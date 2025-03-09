@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "remagsveinminer:item/remag"
+    "layer0": "remags-veinminer:item/remag"
   }
 }
