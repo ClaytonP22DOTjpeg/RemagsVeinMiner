@@ -1,8 +1,8 @@
-package net.remag.RemagsVeinMiner;
+package net.remag.remagsveinminer;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.remag.RemagsVeinMiner.Item.Moditems;
+import net.remag.remagsveinminer.Item.Moditems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
