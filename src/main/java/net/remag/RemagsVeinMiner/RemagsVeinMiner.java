@@ -3,6 +3,7 @@ package net.remag.remagsveinminer;
 import net.fabricmc.api.ModInitializer;
 
 import net.remag.remagsveinminer.Item.Moditems;
+import net.remag.remagsveinminer.config.ModConfigs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,6 +18,7 @@ public class RemagsVeinMiner implements ModInitializer {
 		// Proceed with mild caution.
 
 		//LOGGER.info("Hello Fabric world!");
+		ModConfigs.registerConfigs();
 		Moditems.registerModItems();
 	}
 }
